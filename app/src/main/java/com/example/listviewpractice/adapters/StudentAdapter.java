@@ -35,7 +35,6 @@ public class StudentAdapter extends ArrayAdapter<Student> {
             tempRow = inf.inflate(R.layout.student_list_item, null);
         }
 
-        View row = tempRow != null ? tempRow :;
-        return row;
+        return tempRow;
     }
 }
